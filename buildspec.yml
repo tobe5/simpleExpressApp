@@ -1,0 +1,14 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - npm install -g express
+      - npm install
+  build:
+    commands:
+      - echo HEllo
+      - #npm run start
+artifacts:
+  files:
+    - "**/*"
+
