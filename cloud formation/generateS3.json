@@ -1,0 +1,12 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Alberto's A4 S3",
+    "Resources": {
+        "AlbertoS3Assignment4": {
+            "Type" : "AWS::S3::Bucket",
+            "Properties" : {
+                "BucketName": "alberto-a4-country-list"
+            }
+        } 
+    }
+}
